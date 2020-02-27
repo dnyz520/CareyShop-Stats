@@ -1,0 +1,25 @@
+{
+  "name": "@careyshop/stats",
+  "version": "1.0.0",
+  "description": "vue plugin stats",
+  "main": "stats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnyz520/CareyShop-Stats"
+  },
+  "keywords": [
+    "vue",
+    "stats"
+  ],
+  "author": "思维空间 <252404501@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnyz520/CareyShop-Stats/issues"
+  },
+  "homepage": "https://github.com/dnyz520/CareyShop-Stats#readme",
+  "dependencies": {}
+}
