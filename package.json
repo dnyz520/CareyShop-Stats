@@ -1,6 +1,6 @@
 {
   "name": "@careyshop/stats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue plugin stats",
   "main": "stats.js",
   "private": false,
