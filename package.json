@@ -4,6 +4,12 @@
   "description": "vue plugin stats",
   "main": "src/main.js",
   "private": false,
+  "files": [
+    "/dist/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
@@ -28,7 +34,6 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "cross-env": "^5.0.5",
-    "webpack": "^3.6.0",
-    "webpack-dev-server": "^3.1.11"
+    "webpack": "^3.6.0"
   }
 }
