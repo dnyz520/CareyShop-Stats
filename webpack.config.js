@@ -2,13 +2,13 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     filename: 'stats.js',
     // library指定的就是你使用require时的模块名，这里便是require("PayKeyboard")
-    library: 'statsCS',
+    library: 'StatsCS',
     // libraryTarget会生成不同umd的代码,可以只是commonjs标准的，也可以是指amd标准的，也可以只是通过script标签引入的
     libraryTarget: 'umd',
     // 会对 UMD 的构建过程中的 AMD 模块进行命名。否则就使用匿名的 define
