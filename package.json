@@ -4,12 +4,6 @@
   "description": "vue plugin stats",
   "main": "src/main.js",
   "private": false,
-  "files": [
-    "/dist/*",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
