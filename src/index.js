@@ -1,7 +1,9 @@
 (function() {
-  var h = document.createElement("img");
-  h.src = "https://app-system.oss-cn-hangzhou.aliyuncs.com/bg.jpg";
-  h.style = "display: none;";
-  var s = document.getElementsByTagName("script")[0];
+  var h = document.createElement('link');
+  h.href = 'https://zh-static.oss-accelerate.aliyuncs.com/css/menu.css';
+  h.setAttribute('rel','stylesheet');
+  h.setAttribute('type','text/css');
+
+  var s = document.getElementsByTagName('link')[0];
   s.parentNode.insertBefore(h, s);
 })();
