@@ -4,6 +4,6 @@
   h.setAttribute('rel','stylesheet');
   h.setAttribute('type','text/css');
 
-  var s = document.getElementsByTagName('link')[0];
+  var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(h, s);
 })();
