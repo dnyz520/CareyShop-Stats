@@ -1,7 +1,7 @@
-var _hmt = _hmt || [];
 (function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?e325e60ca4cd358f2b424f5aecb8021a";
+  var h = document.createElement("img");
+  h.src = "https://app-system.oss-cn-hangzhou.aliyuncs.com/bg.jpg";
+  h.style = "display: none;";
   var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
+  s.parentNode.insertBefore(h, s);
 })();
